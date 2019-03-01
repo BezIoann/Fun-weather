@@ -1,0 +1,65 @@
+.perfect-features {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.primary-title {
+    font: bold 36px "UbuntuBold";
+    color: $blueText;
+    text-transform: uppercase;
+
+}
+
+.primary-subtitle {
+    font: 300 16px 'UbuntuLight';
+    color: $gray;
+    line-height: 30px;
+}
+
+.perfect__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.perfect__item {
+    display: flex;
+    width: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.perfect__item .perfect-wrapper {
+    margin-left: 20px;
+}
+
+.perfect__title {
+    font: 700 24px 'UbuntuBold', sans-serif;
+    color: #353854;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .perfect__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfect__item {
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}

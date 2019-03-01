@@ -1,0 +1,13 @@
+@import "normalize";
+@import "./particals/fonts.scss";
+@import "./particals/variables.scss";
+@import "./modules/header.scss";
+@import "./modules/perfect-features.scss";
+@import "./modules/simple-widget.scss";
+@import './modules/feedback.scss';
+@import './modules/footer.scss';
+
+// libs
+
+@import './particals/owl.carousel.css';
+//@import './particals/owl.theme.default.css';

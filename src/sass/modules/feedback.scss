@@ -1,0 +1,38 @@
+.comment {
+    margin-bottom: 155px;
+
+    &:before {
+        content: '“';
+        display: block;
+        position: absolute;
+        top: -80px;
+        left: 10px;
+        font: 142px UbuntuRegular, sans-serif;
+        color: #648cff;
+    }
+
+    &:after {
+        content: '“';
+        display: block;
+        position: absolute;
+        right: 10px;
+        bottom: -45px;
+        font: 142px UbuntuRegular, sans-serif;
+        transform: rotate(180deg);
+        color: #648cff;
+    }
+}
+
+.comment-text {
+    font: 24px UbuntuRegular, sans-serif;
+    color: #353854;
+    margin-bottom: 10px;
+    position: relative;
+
+
+}
+
+.comment-author {
+    font: 18px UbuntuRegular, sans-serif;
+    color: #353854;
+}

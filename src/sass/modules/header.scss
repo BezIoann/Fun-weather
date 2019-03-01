@@ -1,0 +1,184 @@
+html {
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+object {
+    pointer-events: none;
+}
+
+.page-header {
+
+    background-image:
+        url(../img/phone.png),
+        url(../img/sunny.png),
+        url(../img/London.png),
+        url(../img/Rio.png),
+        url(../img/9.png),
+        url(../img/wave.png);
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+
+
+    position: relative;
+    background-size: auto,
+        auto,
+        auto,
+        auto,
+        auto,
+        100% 100%;
+    background-position: 1115px 235px, 980px 564px, 1455px 410px, 1440px 746px, 1450px 199px, 100% 0px;
+}
+
+.navbar {
+    margin-bottom: 260px;
+}
+
+.navbar-brand {
+    padding-left: 0;
+}
+
+.navbar-nav {
+    padding-right: 0;
+}
+
+.navbar-collapse {
+    padding-right: 0;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-family: "UbuntuBold", sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    font: 18px, "UbuntuRegular";
+}
+
+.concats-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.concats__link {
+    cursor: pointer;
+}
+
+.download-app {
+
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.download__title {
+    font: 60px "UbuntuBold";
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.download__text {
+    font: 18px "UbuntuLight";
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.primary-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "UbuntuBold";
+    font-size: 18px;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px transparent #000;
+    border-radius: 4px;
+    background-color: $orange;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: #fff;
+        background-color: darken($orange, 5%);
+    }
+
+    &:active {
+        background-color: #4466c9;
+    }
+}
+
+.download__btn:first-child {
+    margin-right: 15px;
+}
+
+.download__wraper {
+    margin-bottom: 330px;
+}
+
+.phone-bgi {
+    position: absolute;
+    top: -80px;
+    left: 800px;
+}
+
+.scroll-down {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px transparent #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: calc(50% - 50px);
+
+    &:after {
+        content: '';
+        -webkit-transform: rotate(90);
+        transform: rotate(-130deg);
+        position: absolute;
+        left: 17px;
+        display: block;
+        border: 1px solid #fc6a42;
+        width: 10px;
+    }
+
+    &:before {
+        content: '';
+        -webkit-transform: rotate(90);
+        transform: rotate(130deg);
+        position: absolute;
+        left: 22px;
+        display: block;
+        border: 1px solid #fc6a42;
+        width: 10px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 991.98px) {
+    .page-header {
+        background-color: #648cff;
+    }
+
+    .download__title {
+        font-size: 42px;
+    }
+
+}
